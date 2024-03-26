@@ -41,6 +41,42 @@ const a = prompt('Один из последних просмотренных ф
 personalMovieDB.movies[a] = b;
 personalMovieDB.movies[c] = d;
 
-console.log(personalMovieDB)
+console.log(personalMovieDB);
 
 
+
+if (4 == 0) {
+    console.log('ok!');
+} else {
+    console.log('Not Ok');
+};
+
+
+
+// if (num < 49) {
+//     console.log('Error');
+// } else if (num > 100) {
+//     console.log('too much');
+// } else {
+//     console.log('Ok');
+// };
+
+
+// (num === 50) ? console.log('ok') : console.log('Error');
+
+const num = 50;
+
+switch (num) {
+    case 49:
+        console.log('Error');
+        break;
+    case 100:
+        console.log('Error');
+        break;
+    case 50:
+        console.log('ok');
+        break;
+    default:
+        console.log('Not this time');
+        break;
+}
