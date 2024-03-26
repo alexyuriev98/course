@@ -79,4 +79,4 @@ switch (num) {
     default:
         console.log('Not this time');
         break;
-}
+};
