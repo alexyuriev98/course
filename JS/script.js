@@ -60,7 +60,7 @@ for (let i = 0; i < 2; i++) {
         i--;
     }
 
-}
+};
 
 if (personalMovieDB.count < 10) {
     alert('Просмотрено довольно мало фильмов');
@@ -75,6 +75,32 @@ if (personalMovieDB.count < 10) {
 console.log(personalMovieDB);
 
 
+
+
+// // 2 вариант В этом примере я убрал цикл for...of и заменил его на цикл for, который итерируется по количеству фильмов.
+// Также я упростил условие в условном операторе, убрав проверку на null и ' ', так как a и b уже были проверены на null и ' ' в диалоговых окнах prompt.
+
+
+// const numberOfFilms = prompt('Сколько фильмов вы уже посмотрели?', '');
+
+// const personalMovieDB = {
+//     count: numberOfFilms,
+//     movies: {},
+//     actors: {},
+//     genres: [],
+//     privat: false
+// };
+
+// for (let i = 0; i < numberOfFilms; i++) {
+//     const a = prompt('Один из последних просмотренных фильмов?', ''),
+//         b = prompt('На сколько оцените его?', '');
+//     if (a && b && a.length < 50) {
+//         personalMovieDB.movies[a] = b;
+//         console.log('Done')
+//     } else {
+//         console.log('Error');
+//     }
+// }
 
 
 
